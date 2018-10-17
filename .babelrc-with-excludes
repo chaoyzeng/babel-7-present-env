@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "debug": true,
+                "useBuiltIns": "usage",
+                "excludes": ["es6.array.*", "es7.array.*"]
+            }
+        ]
+    ],
+    "plugins": []
+}

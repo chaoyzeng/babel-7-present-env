@@ -1,0 +1,20 @@
+{
+    "name": "babel-7-present",
+    "version": "0.0.1",
+    "description": "Used to test babel 7 config with preset env",
+    "scripts": {
+        "start": "rm -rf build && webpack",
+        "debug": "rm -rf build && webpack-dev-server"
+    },
+    "dependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/polyfill": "^7.0.0",
+        "@babel/preset-env": "^7.1.0",
+        "babel-loader": "^8.0.4",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9",
+        "webpack-merge": "^4.1.4"
+    }
+}
